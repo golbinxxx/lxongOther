@@ -14,7 +14,7 @@ if(!isset($_GET['uri'])){
 	die("BT crack server 1.0");
 }
 
-$base_url = 'http://119.147.144.34';
+$base_url = 'http://125.88.182.172';
 
 # 判断GET参数
 if($_GET['uri'] == "/api/panel/get_soft_list" || $_GET['uri'] == "/api/panel/get_soft_list_test") {
